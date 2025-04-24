@@ -1,1 +1,8 @@
-﻿<Project Sdk="Microsoft.NET.Sdk" />
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="MediatR" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DeliveryAssignmentEngine.Domain\DeliveryAssignmentEngine.Domain.csproj" />
+  </ItemGroup>
+</Project>
