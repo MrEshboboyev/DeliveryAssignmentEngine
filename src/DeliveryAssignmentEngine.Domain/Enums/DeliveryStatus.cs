@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DeliveryAssignmentEngine.Domain.Enums;
+﻿namespace DeliveryAssignmentEngine.Domain.Enums;
 
 public enum DeliveryStatus
 {
@@ -13,21 +9,4 @@ public enum DeliveryStatus
     Completed,
     Failed,
     Canceled
-}
-
-public enum DeliveryAgentStatus
-{
-    Available,
-    Busy,
-    OnBreak,
-    Offline
-}
-
-public enum VehicleType
-{
-    Bicycle,
-    Motorcycle,
-    Car,
-    Van,
-    Truck
 }
