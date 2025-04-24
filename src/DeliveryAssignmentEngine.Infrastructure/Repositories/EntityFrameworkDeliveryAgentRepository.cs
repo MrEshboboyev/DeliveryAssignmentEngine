@@ -2,6 +2,7 @@
 using DeliveryAssignmentEngine.Domain.Enums;
 using DeliveryAssignmentEngine.Domain.Repositories;
 using DeliveryAssignmentEngine.Domain.ValueObjects;
+using DeliveryAssignmentEngine.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace DeliveryAssignmentEngine.Infrastructure.Repositories;

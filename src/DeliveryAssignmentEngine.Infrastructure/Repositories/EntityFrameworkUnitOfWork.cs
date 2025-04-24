@@ -1,4 +1,5 @@
 ﻿using DeliveryAssignmentEngine.Domain.Repositories;
+using DeliveryAssignmentEngine.Infrastructure.Data;
 
 namespace DeliveryAssignmentEngine.Infrastructure.Repositories;
 
